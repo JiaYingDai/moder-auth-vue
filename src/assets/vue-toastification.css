@@ -1,0 +1,83 @@
+/*--- vue-toastfication修改樣式 ---*/
+/* --- 共通設定 --- */
+.Vue-Toastification__toast {
+    border-style: solid !important;
+    border-width: 1px 1px 1px 4px !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1) !important;
+    font-weight: 500 !important;
+}
+
+/* --- Success --- */
+.Vue-Toastification__toast--success {
+    background-color: #E8F5E9 !important;
+    color: #4CAF50 !important;
+    border-color: #4CAF50 !important;
+}
+
+.Vue-Toastification__toast--success .Vue-Toastification__close-button {
+    color: #1B5E20 !important;
+}
+
+.Vue-Toastification__toast--success .Vue-Toastification__progress-bar {
+    background-color: #4CAF50 !important;
+}
+
+/* --- Info --- */
+.Vue-Toastification__toast--info {
+    background-color: #E3F2FD !important;
+    color: #2196F3 !important;
+    border-color: #2196F3 !important;
+}
+
+.Vue-Toastification__toast--info .Vue-Toastification__close-button {
+    color: #0D47A1 !important;
+}
+
+.Vue-Toastification__toast--info .Vue-Toastification__progress-bar {
+    background-color: #2196F3 !important;
+}
+
+/* --- Warning --- */
+.Vue-Toastification__toast--warning {
+    background-color: #FFF3E0 !important;
+    color: #FB8C00 !important;
+    border-color: #FB8C00 !important;
+}
+
+.Vue-Toastification__toast--warning .Vue-Toastification__close-button {
+    color: #E65100 !important;
+}
+
+.Vue-Toastification__toast--warning .Vue-Toastification__progress-bar {
+    background-color: #FB8C00 !important;
+}
+
+/* --- Error --- */
+.Vue-Toastification__toast--error {
+    background-color: #FFEBEE !important;
+    color: #FF5252 !important;
+    border-color: #FF5252 !important;
+}
+
+.Vue-Toastification__toast--error .Vue-Toastification__close-button {
+    color: #B71C1C !important;
+}
+
+.Vue-Toastification__toast--error .Vue-Toastification__progress-bar {
+    background-color: #FF5252 !important;
+}
+
+/* --- Normal / Default --- */
+.Vue-Toastification__toast--default {
+    background-color: #F5F5F5 !important;
+    color: #424242 !important;
+    border-color: #9E9E9E !important;
+}
+
+.Vue-Toastification__toast--default .Vue-Toastification__close-button {
+    color: #424242 !important;
+}
+
+.Vue-Toastification__toast--default .Vue-Toastification__progress-bar {
+    background-color: #757575 !important;
+}
